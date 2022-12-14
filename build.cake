@@ -4,7 +4,7 @@
 
 var testProjectsRelativePaths = new string[]
 {
-    "./Solnet.Template.Test/Solnet.Template.Test.csproj",
+    "./Solnet.Zeta.Test/Solnet.Zeta.Test.csproj",
 };
 
 var target = Argument("target", "Pack");

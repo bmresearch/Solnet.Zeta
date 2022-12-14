@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net5.0</TargetFramework>
+        <TargetFramework>net6.0</TargetFramework>
 
         <IsPackable>false</IsPackable>
     </PropertyGroup>
@@ -16,12 +16,12 @@
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
             <PrivateAssets>all</PrivateAssets>
         </PackageReference>
-        <PackageReference Include="Solnet.Rpc" Version="0.3.2" />
-        <PackageReference Include="Solnet.Wallet" Version="0.3.2" />
+        <PackageReference Include="Solnet.Rpc" Version="6.1.0" />
+        <PackageReference Include="Solnet.Wallet" Version="6.1.0" />
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\Solnet.Template\Solnet.Template.csproj" />
+        <ProjectReference Include="..\Solnet.Zeta\Solnet.Zeta.csproj" />
     </ItemGroup>
 
 </Project>
